@@ -3947,7 +3947,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: black;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3963,11 +3963,11 @@ input, select, textarea {
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #black;
 		}
 
 		#footer a {
-			color: #717981;
+			color: black;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -3977,11 +3977,11 @@ input, select, textarea {
 			}
 
 		#footer strong, #footer b {
-			color: #717981;
+			color: black;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: black;
 		}
 
 		#footer blockquote {
@@ -4064,7 +4064,7 @@ input, select, textarea {
 
 			#footer select option {
 				background-color: #f5f5f5;
-				color: #717981;
+				color: black;
 			}
 
 		#footer .select-wrapper:before {
@@ -4073,7 +4073,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"] + label,
 		#footer input[type="radio"] + label {
-			color: #717981;
+			color: black;
 		}
 
 			#footer input[type="checkbox"] + label:before,
@@ -4142,7 +4142,7 @@ input, select, textarea {
 			}
 
 		#footer table th {
-			color: #717981;
+			color: black;
 		}
 
 		#footer table thead {
@@ -4162,7 +4162,7 @@ input, select, textarea {
 		}
 
 		#footer .pagination a {
-			color: #717981 !important;
+			color: black !important;
 		}
 
 			#footer .pagination a:hover {
