@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("touchstart", handle, { passive: true });
+    }
+};
+
 (function($) {
 
 	var	$window = $(window),
